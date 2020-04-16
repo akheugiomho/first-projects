@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html></html>
+<link href="https://fonts.google.com/specimen/Do+Hyeon family=Do Hyeon" rel="stylesheet" type="text/css">
+<style>
+    .blue-text {
+        color:blue;
+    }
+    h1 {
+        color:green;
+        font-size:50px;
+        font-family:"Do Hyeon";
+    }
+    .smaller-image {
+        width:30px;
+    }
+    #cat-photo-form {
+        background-color:aqua;
+    }
+</style>
+<h1 style="color:red">Cat Photo App</h1>
+<main>
+    <p class="blue-text">click here to view more <a href="#">cat photos</a></p>
+        <a href ="#><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+        <img class="small-image" src="http://1.bp.blogspot.com/cute-puppy-dog-wallpapers.jpg>
+    <p class="blue-text">Things cats love:</p>
+        <ul>
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+    <p class="blue-text">Top 3 things cats hate:</p>
+        <ol>
+            <li>flea treatment</li>
+            <li>thunder</li>
+            <li>other cats</li>
+          </ol>
+    <form id="cat-photo-form" action=/submit-cat-photo>
+        <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" value="indoor">Indoor</label>
+        <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor" checked>Outdoor</label>
+        <label><input id="loving" type="checkbox" name="personality" value="loving">Loving</label>
+        <label><input id="lazy" type="checkbox" name="personality" value="lazy" checked>Lazy</label>
+        <label><input id="energetic" type="checkbox" name="personality" value="energetic">Energetic</label>
+        <input type="text" placeholder="cat photo URL" required><button type="submit">Submit</button>
+    </form>
+        
+</main>
+</html>
