@@ -6,12 +6,13 @@
           body {
             background:lightgray;
             font-size:12;
-            font-family:Times, Arial;
-            text-align:center;
+            font-family: Arial, Helvetica, sans-serif;
             border:solid;
             border-radius:5%;
             
-        }
+            
+          }
+        
           h1 {
             font-size:15;
           }
@@ -23,23 +24,35 @@
           }
           a:visited {
             color:darkcyan;
-
-          img {
-            max-width:100%;
-            height:auto;
+          }  
+          @media (max-width: 350px) {
+            img {
+            max-width: 100%;
+            display:block;
+            height: auto;
+            }
           }
-          #img-div {
+          @media(max-width: 350px) {
+            #img-div {
             background-color:white;
+            margin: auto;
+            }  
+
+          #main {
+            text-align: left;
+            max-width: 400px;
+            margin: 0 auto 50px auto;
+          }  
+        
+            
+            
           }
         </style>
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-        </head>
+    </head>  
         <body>
             <main id="main">
-              <head>
-            <h1 id="obafemi awolowo">Chief
+           <header>
+            <h1 id="title">Chief
         Obafemi Awolowo GCFR</h1>
             
            <figure id="img-div">
@@ -68,5 +81,6 @@
                <p><strong>Profession</strong> Journalist, Lawyer.
                <footer>If you have time, you should read more about this incredible human being on his <a  id=:tribute-link" href=""https://en.wikipedia.org/wiki/Obafemi_Awolowo" target="_blank" alt="Obafemi Awolowo.">Wikipedia entry</a></footer>
                             
-        </body>
+               </main>
+              </body>
         </html>
